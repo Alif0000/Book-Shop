@@ -1,0 +1,346 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.custom-btn {
+    background-color: blue;
+    padding: 10px 20px;
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-bar li {
+    border-bottom: 3px solid blue;
+    font-weight: 800;
+    margin-right: 50px;
+    padding: 7px;
+}
+
+.banner-section {
+    margin: 100px 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.customer-section .brand-section {
+    padding: 100px 20%;
+
+}
+
+.services-section {
+    padding: 100px 20%;
+}
+
+.services-section {
+    background-color: rgb(189, 241, 241);
+}
+
+
+.blank-btn {
+    color: rgb(22, 2, 26);
+    border: 2px solid rgb(6, 97, 28);
+    padding: 10px 20px;
+    background-color: rgb(220, 236, 224);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.banner-text {
+    display: flex;
+
+    align-items: center;
+}
+
+.try-btn {
+    margin-right: 15px;
+    border: 2px solid blue;
+}
+
+.black-heading {
+    font-size: 60px;
+    margin: 10px;
+    font-weight: 900;
+}
+
+.banner-img {
+    display: flex;
+    align-items: center;
+}
+
+.reach-section {
+    background-color: white;
+    padding: 100px 15%;
+
+}
+
+
+.reach-content {
+
+    height: 399px;
+    background-image: url(logo/reachcontent.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reach-content h1 {
+    color: rgb(12, 85, 145);
+    font-size: 80px;
+    font-weight: 600;
+
+
+}
+
+.center-btn {
+    color: rgb(22, 2, 26);
+    border: 2px solid rgb(6, 97, 28);
+    padding: 10px 20px;
+    background-color: rgb(220, 236, 224);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.customers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 100px;
+
+
+}
+
+.services {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+
+}
+
+.service {
+    box-shadow: 2px 2px 25px rgb(13, 130, 134);
+
+}
+
+
+.service-text {
+    padding: 25px;
+}
+
+.buy-text {
+    color: #2b17a0;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.customer {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.customer h1 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.customer h3 {
+    margin: 3px;
+}
+
+.customer-one {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url("logo/man2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.customer-two {
+    background-image: url("images/customers/customer2.jpg");
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url("logo/man3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.customer-three {
+    background-image: url("images/customers/customer3.jpg");
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url("logo/mark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.long-header {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form input {
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: none;
+    border: 2px solid lightgray;
+    margin-right: 20px;
+}
+
+.contact-section {
+    margin-top: 50px;
+}
+
+.green-text {
+    color: #4BA87D;
+    text-align: center;
+}
+
+.brand-logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate-section {
+    background-color: #1f1f3a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.rate-section h1 {
+    color: rgb(76, 226, 89);
+    font-weight: 900;
+    font-size: 50px;
+}
+
+footer {
+    padding: 50px 15%;
+}
+
+.footer-upper {
+    display: grid;
+    grid-template-columns: 2fr repeat(4, 1fr);
+    margin-bottom: 20px;
+}
+
+.footer-lower {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    font-weight: 700;
+}
+
+.footer-horizontal {
+    border: 2px solid lightgray;
+}
+
+@media (max-width: 1300px) {
+    .brand-section {
+        padding: 100px 10%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .menu-bar {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        margin-right: 5%;
+    }
+
+    .banner-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner-img {
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .banner-img img {
+        width: 70%;
+    }
+
+    .services,
+    .customers {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .brand-logos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brand-logos img {
+        margin-bottom: 20px;
+    }
+
+    .footer-upper {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    .footer-lower {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .banner-img img {
+        width: 100%;
+    }
+
+    .black-heading {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 400px) {
+    .try-btn {
+        margin-bottom: 20px;
+    }
+
+    .reach-content h1 {
+        font-size: 45px;
+    }
+
+    .long-header {
+        font-size: 30px;
+    }
+}
